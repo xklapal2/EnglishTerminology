@@ -35,9 +35,9 @@ Using a database management system (DBMS) for the e-shop offers several advantag
 
 To efficiently manage the e-shop’s data, the database will be structured around key entities, with relationships defined between them. The core entities are:
 
-- **Product**: Attributes include product name, description, category, brand, price, stock levels, and features. It ensures that all product details are easily accessible for catalog management and inventory tracking.
-- **Customer**: Attributes include customer ID, name, email, password, shipping address, and order history. These details support personalization, secure user authentication, and order processing.
-- **Order**: Attributes include order ID, customer ID (linking to the customer table), order date, total amount, payment status, and shipment details. This entity tracks purchases and links each order to the relevant customer and product(s).
+- **Product**: It ensures that all product details are easily accessible for catalog management and inventory tracking.
+- **Customer**: These details support personalization, secure user authentication, and order processing.
+- **Order**: This entity tracks purchases and links each order to the relevant customer and product(s).
 
 These entities will be linked using **foreign key relationships** to maintain data integrity, ensuring that each order, customer, and product is correctly associated with relevant records across the database. For example, each **Order** will reference both the **Customer** who placed it and the **Products** it includes.
 
