@@ -16,7 +16,7 @@ The e-shop will integrate AI in three primary areas: **personalized product reco
 
     3. The system calculates a **Fraud Score**, which represents the probability of fraud as a percentage.
 
-       ![FraudScore](/media/dk/KLAPIK/Mega/school/s3/English Terminology/etp/images/FraudScore.png)
+       ![FraudScore](./images/FraudScore.png)
 
     4. When the **Fraud Score is low**, the purchase is **approved**. Otherwise, the purchase is flagged as suspicious and must be verified by the customer or store.
 
@@ -30,7 +30,7 @@ The e-shop will integrate AI in three primary areas: **personalized product reco
     5. **Create alerts**: Create alerts for suspicious activities.
     6. **Learn and Improve (Data Warehousing)**: Use feedback to improve future fraud detection.
 
-    ![FraudDetection](/media/dk/KLAPIK/Mega/school/s3/English Terminology/etp/images/FraudDetection.png)
+    ![FraudDetection](./images/FraudDetection.png)
 
 ### **AI Learning Applications**
 

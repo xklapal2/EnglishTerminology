@@ -6,7 +6,7 @@
 
 Designing an efficient and scalable database is crucial for the successful operation of an online electronics store. The system must handle product catalog management, customer profiles, order processing, inventory tracking, and reporting, among other functions. 
 
-### 1. **What our e-shop needs to store in the database**
+### **What our e-shop needs to store in the database**
 
 The database for the e-shop will store the following data:
 
@@ -17,7 +17,7 @@ The database for the e-shop will store the following data:
 
 These three main categories form the backbone of the e-shop’s database, ensuring all necessary data is available for processing transactions, managing inventory, and delivering a personalized user experience, leading to increased profitability.
 
-### 2. **Benefits of Using a Database**
+### **Benefits of Using a Database**
 
 Using a database management system (DBMS) for the e-shop offers several advantages over file-based storage:
 
@@ -31,7 +31,7 @@ Using a database management system (DBMS) for the e-shop offers several advantag
   - **Data Integrity**: Features like constraints and transactions ensure accurate data, with all processes (e.g., payment, stock reduction) completed atomically.
   - **Concurrency**: Databases handle multiple users simultaneously without conflicts, ensuring real-time updates during high-traffic events like sales.
 
-### 3. **Database design and structure**
+### **Database design and structure**
 
 To efficiently manage the e-shop’s data, the database will be structured around key entities, with relationships defined between them. The core entities are:
 
